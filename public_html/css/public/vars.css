@@ -1,0 +1,58 @@
+*{
+    --color-purple: #9c1dff;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: local('../fonts/Gilroy Regular'), local('Gilroy-Regular'),
+    url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff'),
+    url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+.my-2rem{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.mb-2rem{
+    margin-bottom: 2rem;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.ff-gilroy{
+    font-family: "Gilroy",Helvetica,Arial,sans-serif;
+}
+
+.color-grey{
+    color: #7f7f7f;
+}
+.progress-purple{
+    --bs-progress-bar-bg: #673be6 !important;
+}
+.btn-purple{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #673be6;
+    --bs-btn-border-color: #673be6;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #5010c6;
+    --bs-btn-hover-border-color: #673be6;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #5010c6;
+    --bs-btn-active-border-color: #5010c6;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #673be6;
+    --bs-btn-disabled-border-color: #673be6;
+}
+.form-check-purple:checked{
+    background-color: var(--color-purple);
+    border-color: var(--color-purple);
+}
+.cursor-pointer{
+    cursor: pointer;
+}
